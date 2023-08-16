@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(https://images.pexels.com/photos/14130157/pexels-photo-14130157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.App-header {
+text-align: center;
+padding: 15% 0;
+}
+
+.App-header h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.App-header p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(https://images.pexels.com/photos/5303926/pexels-photo-5303926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.header-container img {
+  height: 70px;
+  margin-right: 1em;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.products-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.item-products {
+  background: #889;
+  border-radius: 5px;
+  margin-top: 1em;
+  text-align: center;
+  width: 170px;
+  border: 1px solid #556;
+}
+
+.tittle {
+  text-align: center;
+}
+
+.contact {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(https://images.pexels.com/photos/7915273/pexels-photo-7915273.jpeg);
+}
+
+.contact-header {
+text-align: center;
+padding: 15% 0;
+}
+
+.contact-header h3 {
+  margin: 0;
+  
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-header h2 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-header p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(https://images.pexels.com/photos/7047612/pexels-photo-7047612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+.about-header {
+text-align: center;
+padding: 15% 0;
+}
+
+.about-header h3 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.about-header p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
